@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FireEmblemEugenics.Data.Class_Stats
 {
-    public abstract class AClass : ACharacter, IClassGrowthRates
+    public abstract class AClass : ABaseModel, IClass
     {
         #region Values
         private string _className;

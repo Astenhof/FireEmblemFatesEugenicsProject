@@ -64,12 +64,11 @@
     </Compile>
     <Compile Include="Data\ABaseModel.cs" />
     <Compile Include="Data\Character Stats\ACharacter.cs" />
+    <Compile Include="Data\Character Stats\Hoshido\Kaze.cs" />
     <Compile Include="Data\Class Stats\AClass.cs" />
-    <Compile Include="Data\ClassGrowthResource.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ClassGrowthResource.resx</DependentUpon>
-    </Compile>
+    <Compile Include="Data\Class Stats\Hoshido\HoshidoNoble.cs" />
+    <Compile Include="Data\Class Stats\Hoshido\Ninja.cs" />
+    <Compile Include="Data\Class Stats\Hoshido\Samurai.cs" />
     <Compile Include="Interfaces\IBaseStats.cs" />
     <Compile Include="Interfaces\IClassGrowthRates.cs" />
     <Compile Include="Interfaces\IGrowthRates.cs" />
@@ -92,10 +91,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Data\ClassGrowthResource.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>ClassGrowthResource.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

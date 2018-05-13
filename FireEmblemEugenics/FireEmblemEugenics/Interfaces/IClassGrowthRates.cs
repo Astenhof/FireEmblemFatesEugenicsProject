@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FireEmblemEugenics.Interfaces
 {
-    public interface IClassGrowthRates
+    public interface IClass
     {
         double HPClassGrowth { get; }
         double StrengthClassGrowth { get; }
